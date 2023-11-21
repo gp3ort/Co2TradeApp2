@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.FrameLayout
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,13 +12,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val webView: WebView = findViewById(R.id.webView)
-
-        // Configura WebView
         webView.webViewClient = WebViewClient()
-        webView.loadUrl("https://pachama.com/")
 
-        // Habilita la configuración de JavaScript si es necesario
+        val params = FrameLayout.LayoutParams(
+            FrameLayout.LayoutParams.MATCH_PARENT,
+            FrameLayout.LayoutParams.MATCH_PARENT
+        )
+
+        webView.layoutParams = params
+
         val webSettings = webView.settings
         webSettings.javaScriptEnabled = true
+        webSettings.domStorageEnabled = true
+
+        webView.loadUrl("http://192.168.0.164:5173/")
     }
 }
