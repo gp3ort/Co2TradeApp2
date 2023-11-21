@@ -1,19 +1,17 @@
 # Co2Trade App
 
-![Co2Trade App Logo](logo.png)
-
 Co2Trade App es una aplicación desarrollada en Kotlin que actúa como un marketplacer para la compensación de la huella de carbono. La aplicación se integra como un componente WebView del sitio principal, el cual está desarrollado en React.js.
 
 ## Capturas de Pantalla
 
 ### Demo 1
-![Demo 1](Co2TradeApp%20Demo1.png)
+<img src="Co2TradeApp%20Demo1.png" alt="Demo 1" width="25%">
 
 ### Demo 2
-![Demo 2](Co2TradeApp%20Demo2.png)
+<img src="Co2TradeApp%20Demo2.png" alt="Demo 2" width="25%">
 
 ### Demo 3
-![Demo 3](Co2TradeApp%20Demo3.png)
+<img src="Co2TradeApp%20Demo3.png" alt="Demo 3" width="25%">
 
 ## Características Principales
 
@@ -27,6 +25,7 @@ Co2Trade App es una aplicación desarrollada en Kotlin que actúa como un market
 
 - **Lenguaje de Programación:** Kotlin
 - **Integración Web:** React.js (Sitio Principal)
+
 
 ## Instalación
 
