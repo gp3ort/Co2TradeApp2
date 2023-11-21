@@ -32,3 +32,7 @@ Co2Trade App es una aplicación desarrollada en Kotlin que actúa como un market
 1. Clone el repositorio en su máquina local.
    ```bash
    git clone https://github.com/tu-usuario/Co2TradeApp2.git
+
+## Configuración
+
+1. Antes de compilar y ejecutar la aplicación, asegúrese de modificar la URL del sitio principal en el archivo `MainActivity.kt`
